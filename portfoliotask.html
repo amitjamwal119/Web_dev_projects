@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio task</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .logoname {
+            font-family: "Sofia", sans-serif;
+        }
+
+        nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            border: 1px solid grey;
+
+        }
+
+        .container-fluid.text-center.hero-section {
+            height: 500px;
+            background: none;
+            color: black;
+            /* border: 1px solid black; */
+        }
+
+        .hero-column {
+            height: 500px;
+        }
+
+        button.btn.btn-outline-light.btn-lg.px-4 {
+            color: black;
+            border: 1px solid black;
+        }
+
+        button.btn.btn-outline-info.btn-lg.px-4.me-sm-3.fw-bold:hover {
+            background-color: #0dcaf0;
+            color: white;
+        }
+
+        .hero-btn.d-grid.gap-2.d-md-flex.justify-content-md-center {
+            margin: 50px 0px;
+        }
+
+        .container-fluid.text-center.hero-section {
+            border-bottom: 1px solid black;
+            /* margin-bottom: 9px; */
+        }
+
+        button.btn.btn-outline-light.btn-lg.px-4:hover {
+            background-color: black;
+            color: white;
+        }
+
+        section.services-section {
+            border-bottom: 1px solid black;
+        }
+
+        .row.card-row.justify-content-center {
+            height: 130px;
+            /* border: 1px solid black; */
+        }
+
+        .container-fluid.text-center.skills-section {
+            border-bottom: 1px solid black;
+        }
+
+        .col.skills-coloumn {
+            color: black;
+            background: white;
+        }
+
+        .row.justify-content-center.skills-heading {
+            margin: 20px;
+        }
+
+        footer {
+        color: white;
+        background-color: black;
+        padding: 40px 10px;
+        }
+
+        .col.footer-clmn {
+            height: 200px;
+            /* border: 1px solid black; */
+        }
+
+        nav.navbar.navbar-expand-lg {
+    background-color: black;
+    color: white;
+}
+
+a.nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+a.nav-link:hover {
+    color: green;
+}
+
+.col h5 {
+    font-weight: 900;
+    font-size: 32px;
+    padding: 10px 0px;
+}
+
+h5.logoname {
+    font-size: 40px;
+}
+
+button.btn.btn-outline-info.btn-lg.px-4.me-sm-3.fw-bold:hover {
+    color: black;
+}
+
+button.btn.btn-outline-light.btn-lg.px-4{
+    font-weight: 700;
+}
+button.btn.btn-outline-light.btn-lg.px-4:hover {
+    color: green;
+}
+img.free.img-fluid {
+    width: 400px;
+    height: 400px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.845), 0 6px 20px 0 rgba(0, 0, 0, 0.779);
+}
+
+section.hero-section {
+    border-bottom: 1px solid;
+    padding: 50px 0px;
+}
+
+button.nav-btn.btn.btn-outline-success.rounded-4:hover {
+    box-shadow: 0px 2px 2px white;
+}
+
+a.fun-1{
+    color: white;
+}
+a.fun-1:hover{
+    color: white;
+}
+h5.card-title {
+    margin-top: 20px;
+    font-size: 25px;
+}
+p.card-text {
+    margin-top: 20px;
+}
+</style>
+
+</head>
+
+<body>
+    <!-- welcome part start -->
+    <div class="container-fluid text-center">
+        <div class="row justify-content-center">
+            <div class="col">
+                <h5>Welcome to my profile</h5>
+            </div>
+        </div>
+    </div>
+    <!-- welcome part end -->
+
+    <!-- Navbar start -->
+    <nav class="navbar navbar-dark navbar-expand-lg ">
+        <div class="container-fluid">
+            <!-- Logo on the left -->
+
+            <h5 class="logoname">Amit Jamwal</h5>
+            <!-- <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                MyBrand
+            </a> -->
+
+            <!-- Toggler for mobile view -->
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar content -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <button class="nav-btn btn btn-outline-success rounded-4"><a class="fun-1 text-decoration-none" href="">Contact Me</a></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar end -->
+
+    <!-- Hero start -->
+    <section class="hero-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3 class="display-6 fw-bold lh-1 mt-5 mb-5">Hi, I'm Amit Jamwal</h3>
+                    <h1 class="display-6 lh-1 mb-3">A Full-Stack MERN Developer</h1>
+                    <p class="lead">"I specialize in developing end-to-end web applications using MongoDB, Express.js,
+                        React, and Node.js. With a passion for clean code and responsive design, I create solutions that
+                        are scalable, user-friendly, and performance-driven."</p>
+                    <div class="hero-btn d-grid gap-2 d-md-flex justify-content-md-center">
+                        <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Resume</button>
+                        <button type="button" class="btn btn-outline-light btn-lg px-4">Skills</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <div class="my-image">
+                        <img src="my-img.jpg" class="free img-fluid" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero end -->
+
+    <!-- services section start -->
+    <section class="services-section">
+        <div class="container text-center my-5 services-class">
+            <h2 class="mb-4">Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="https://img.icons8.com/?size=50&id=12447&format=png" alt="Webdev">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Building responsive and user-friendly websites tailored to your needs
+                                using the latest technologies.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="https://img.icons8.com/?size=50&id=24870&format=png" alt="UI/UX">
+                            <h5 class="card-title">UI/UX Design</h5>
+                            <p class="card-text">Designing visually appealing and intuitive interfaces to enhance user
+                                experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img src="https://img.icons8.com/?size=50&id=42185&format=png" alt="E-Commerce">
+                            <h5 class="card-title">E-commerce Solutions</h5>
+                            <p class="card-text">Developing secure and scalable e-commerce platforms to help grow your
+                                business online.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section end -->
+
+    <!-- Skills section start -->
+    <section class="skills-section">
+        <div class="container-fluid text-center skills-section">
+            <div class="row justify-content-center skills-heading">
+                <div class="col skills-coloumn">
+                    <h3>Skills</h3>
+                </div>
+            </div>
+
+            <div class="row card-row justify-content-center">
+                <div class="col skills-coloumn">
+                    <img src="https://img.icons8.com/?size=48&id=20909&format=png" alt="HTML">
+                    <p>HTML</p>
+                </div>
+
+                <div class="col skills-coloumn">
+                    <img src="https://img.icons8.com/?size=48&id=21278&format=png" alt="CSS">
+                    <p>CSS</p>
+                </div>
+
+                <div class="col skills-coloumn">
+                    <img src="https://img.icons8.com/?size=48&id=EzPCiQUqWWEa&format=png " alt="Bootstrap">
+                    <p>Bootstrap</p>
+                </div>
+
+                <div class="col skills-coloumn">
+                    <img src="https://img.icons8.com/?size=48&id=tGvHBPJaKqEd&format=gif" alt="JS">
+                    <p>Java Script</p>
+                </div>
+            </div>
+
+            <div class="row card-row justify-content-center">
+                <div class="col skills-coloumn">
+                    <img src="https://img.icons8.com/?size=64&id=o6OvAxG0nzTH&format=png" alt="MongoDB">
+                    <p>MongoDB</p>
+                </div>
+
+                <div class="col skills-coloumn">
+                    <img src="https://img.icons8.com/?size=50&id=kg46nzoJrmTR&format=png" alt="Express">
+                    <p>Express</p>
+                </div>
+
+                <div class="col skills-coloumn">
+                    <img src="https://img.icons8.com/?size=50&id=YYYhFVbH4vFv&format=gif" alt="React">
+                    <p>React</p>
+                </div>
+
+                <div class="col skills-coloumn">
+                    <img src="https://img.icons8.com/?size=48&id=hsPbhkOH4FMe&format=png" alt="Node">
+                    <p>Node</p>
+                </div>
+            </div>
+    </section>
+    <!-- Skills section end -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h1 class="logoname"><strong>Amit Jamwal</strong></h1>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <a href="#github"><i>Git hub</i></a>
+
+                    <a href="#linkedin"><i>Linkedin</i></a>
+
+                    <a href="#X"><i>X</i></a>
+
+                    <a href="Instagram"><i>Instagram</i></a>
+
+                    <a href="Facebook"><i>Facebook</i></a>
+
+                   <br><br>
+                   <p> Email: ak7719869@gmail.com</p> 
+                   <p>Phone: +91 78072-71261</p>                 
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h3>Permanent Address:</h3>
+                    <!--Village - Kandwari Post Office - Kandwari Tehsil - Joginder Nagar District - Mandi -->
+                    City - Mandi , Himachal Pradesh,
+                    Pin - 175021,
+                    India
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+
+</body>
+
+</html>
